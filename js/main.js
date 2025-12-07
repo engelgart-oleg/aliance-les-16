@@ -89,22 +89,16 @@ const swiperTwo = new Swiper(".steps-slider", {
 
 const swiperThree= new Swiper(".blog-slider", {
   speed: 400,
-  loop: true,
-  slidesPerView: 2,
-  // spaceBetwwen: 30,
+  // loop: true,
+  slidesPerView: 1,
+  spaceBetwwen: 30,
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev",
   },
   breakpoints: {
-    576: {
-      slidesPerView: 1,
-    },
     992: {
       slidesPerView: 2,
-    },
-    1200: {
-      slidesPerView: 3,
     },
   },
 });
